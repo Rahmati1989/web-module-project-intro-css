@@ -20,6 +20,30 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.container{
+    
+    width:90%;
+    margin: 0 auto;
+}
+
+
+
+.nav{
+    display:flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+a{
+    width: 140px;
+    padding: 0 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align:center;
+    
+    
 }
 .plan{
    background-color: #FF764E;
@@ -109,4 +133,18 @@ body{
     border-radius: 50%;
     display:block;
     margin-left: 200px;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+.bottom-image{
+    background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
+    background-size:cover;
+    background-position:center;
+    height:80vh;
+  }
+  
+span{
+    font-weight:bolder ;
 }
