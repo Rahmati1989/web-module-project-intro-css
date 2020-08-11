@@ -19,3 +19,94 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+}
+.plan{
+   background-color: #FF764E;
+   transition: 3s;
+
+}
+.plan:hover{
+    background-color:#FF764E;
+    opacity: 50%;
+    color:black;     
+}
+
+.learn{
+    background-color:#5ED3EB ;
+    transition: 3s;
+}
+.learn:hover{
+    background-color:#5ED3EB ;
+    opacity: 50%;
+    color:black; 
+}
+.get{
+    background-color:#FFCD69;
+    transition: 3s;
+}
+.get:hover{
+    background-color:#FFCD69;
+    opacity: 50%;
+    color:black; 
+} */
+#top-image img{
+    border-radius: 50%;
+    width:300px;
+    height:auto;
+} 
+#intro p{
+    background-color: #DDB9A3;
+    color:white;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.fire{
+  width:27%;
+  margin:0 auto;  
+   
+   
+    
+}
+.fire div img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.fire div p{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+body{
+    
+    font-family: 'Roboto Mono', monospace;
+}
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.container{
+    margin: 0 auto;
+    
+}
+.text{
+    width: 500px;
+    margin: 20px auto 0 200px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.image{
+    display: inline-block;
+    vertical-align: middle;
+    width:400px;
+    margin-top: -40px;
+}
+.image img{
+    width:200px;
+    border-radius: 50%;
+    display:block;
+    margin-left: 200px;
+}
